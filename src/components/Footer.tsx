@@ -1,6 +1,9 @@
-import { Phone, Mail } from 'lucide-react';
+
+import { Phone, Mail, ArrowRight } from 'lucide-react';
 
 const Footer = () => {
+  const materialValuationUrl = "https://materialvaluationgpt.lovable.app/";
+  
   return (
     <footer className="relative bg-cyber-darker py-12 overflow-hidden">
       {/* Grid Overlay */}
@@ -73,6 +76,17 @@ const Footer = () => {
               <li>
                 <a href="#disclaimer" className="text-gray-400 hover:text-neon-blue transition-colors">
                   Disclaimer
+                </a>
+              </li>
+              <li className="pt-4">
+                <a 
+                  href={materialValuationUrl}
+                  className="flex items-center text-neon-green hover:text-white bg-cyber-light/50 rounded-md p-2 transition-colors group"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span className="mr-2">MATERIAL VALUATION GPT</span>
+                  <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </a>
               </li>
             </ul>

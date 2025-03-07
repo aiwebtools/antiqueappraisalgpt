@@ -1,4 +1,3 @@
-
 import { Phone, Mail } from 'lucide-react';
 
 const Footer = () => {
@@ -18,7 +17,7 @@ const Footer = () => {
               <div className="relative h-8 w-8">
                 <div className="absolute inset-0 rounded-full bg-neon-gradient animate-spin-slow opacity-70"></div>
                 <div className="absolute inset-0.5 rounded-full bg-cyber-darker flex items-center justify-center">
-                  <span className="text-neon-pink text-xs font-cyber">AC</span>
+                  <span className="text-neon-pink text-xs font-cyber">AI</span>
                 </div>
               </div>
               <div>

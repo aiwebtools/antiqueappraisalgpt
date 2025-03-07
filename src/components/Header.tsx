@@ -28,7 +28,7 @@ const Header = () => {
           <div className="relative h-10 w-10">
             <div className="absolute inset-0 rounded-full bg-neon-gradient animate-spin-slow opacity-70"></div>
             <div className="absolute inset-0.5 rounded-full bg-cyber-darker flex items-center justify-center">
-              <span className="text-neon-pink text-sm font-cyber">AC</span>
+              <span className="text-neon-pink text-sm font-cyber">AI</span>
             </div>
           </div>
           <div>

@@ -85,7 +85,7 @@ const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span className="mr-2">MATERIAL VALUATION GPT</span>
+                  <span className="mr-2">We also think you may like MATERIAL VALUATION GPT</span>
                   <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </a>
               </li>

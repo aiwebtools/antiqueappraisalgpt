@@ -26,6 +26,8 @@ const Hero = () => {
     };
   }, []);
 
+  const toolsUrl = "https://chatgpt.com/g/g-R3XUdDD0O-antique-and-collectible-appraisal-gpt";
+
   return (
     <section 
       className="relative min-h-screen flex items-center pt-28 pb-20 overflow-hidden"
@@ -59,7 +61,7 @@ const Hero = () => {
             </p>
             <div className="flex flex-wrap gap-4">
               <a 
-                href="https://chatgpt.com/g/g-R3XUdDD0O-antique-and-collectible-appraisal-gpt" 
+                href={toolsUrl} 
                 className="neon-button neon-button-pink group"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -79,7 +81,7 @@ const Hero = () => {
             <div className="relative">
               {/* Main image with connected URL */}
               <a 
-                href="https://img1.wsimg.com/isteam/ip/9fd6d942-5b46-4025-92e2-0f1ec2a7adf2/an-advertisement-for-an-antique-and-collectibl.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1200,cg:true"
+                href={toolsUrl}
                 target="_blank"
                 rel="noopener noreferrer"
               >

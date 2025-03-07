@@ -107,7 +107,12 @@
   }
 
   .neon-button {
-    @apply relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-cyber font-medium tracking-wider text-white rounded-lg group;
+    @apply relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-cyber font-medium tracking-wider text-white rounded-lg;
+  }
+
+  /* Apply group class separately */
+  .neon-button {
+    @apply group;
   }
 
   .neon-button-pink {

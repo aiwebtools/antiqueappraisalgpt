@@ -26,7 +26,7 @@ const NotFound = () => {
         <p className="text-xl text-gray-300 mb-8">This page has been lost in the digital void.</p>
         <a 
           href="/" 
-          className="neon-button neon-button-blue inline-flex items-center gap-2 group"
+          className="neon-button neon-button-blue group inline-flex items-center gap-2"
         >
           <Home className="h-4 w-4 transition-transform group-hover:-translate-y-1" />
           <span>Return to Home</span>

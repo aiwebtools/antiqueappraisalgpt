@@ -8,6 +8,7 @@ import Testimonials from '@/components/Testimonials';
 import FAQ from '@/components/FAQ';
 import Disclaimer from '@/components/Disclaimer';
 import Footer from '@/components/Footer';
+import DisclaimerPopup from '@/components/DisclaimerPopup';
 import { toast } from '@/hooks/use-toast';
 
 const Index = () => {
@@ -38,6 +39,7 @@ const Index = () => {
   return (
     <div className="min-h-screen overflow-x-hidden">
       <Header />
+      <DisclaimerPopup />
       <main>
         <Hero />
         <Features />

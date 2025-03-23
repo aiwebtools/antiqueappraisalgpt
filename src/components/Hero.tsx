@@ -69,7 +69,7 @@ const Hero = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span className="mr-2">START YOUR APPRAISAL</span>
+                  <span className="mr-2">LAUNCH ANTIQUE APPRAISAL GPT</span>
                   <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </a>
                 <a 
@@ -144,7 +144,7 @@ const Hero = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="mr-2">TRY IT HERE</span>
+                <span className="mr-2">TRY MATERIAL VALUATION GPT</span>
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
               </a>
             </div>
@@ -161,7 +161,7 @@ const Hero = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="mr-2">TRY IT HERE</span>
+                <span className="mr-2">TRY ART & VINTAGE APPRAISAL GPT</span>
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
               </a>
             </div>

@@ -56,7 +56,7 @@ const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Try the Tool
+                  Try Antique & Collectible Appraisal GPT
                 </a>
               </li>
               <li>
@@ -161,7 +161,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Try the Appraisal Tool
+              Try Antique & Collectible Appraisal GPT
             </a>
             <a 
               href="https://www.aiwebtools.ai" 

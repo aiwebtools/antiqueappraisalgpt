@@ -47,7 +47,7 @@ const Header = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            TRY NOW
+            TRY ANTIQUE & COLLECTIBLE APPRAISAL GPT
           </a>
           <a href="#faq" className="text-gray-300 hover:text-neon-pink transition-colors font-cyber text-sm">
             FAQ
@@ -69,7 +69,7 @@ const Header = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span>GET STARTED</span>
+            <span>LAUNCH ANTIQUE APPRAISAL GPT</span>
           </a>
         </nav>
 
@@ -97,7 +97,7 @@ const Header = () => {
               rel="noopener noreferrer"
               onClick={() => setIsMenuOpen(false)}
             >
-              TRY NOW
+              TRY ANTIQUE APPRAISAL GPT
             </a>
             <a 
               href="#faq" 
@@ -129,7 +129,7 @@ const Header = () => {
               rel="noopener noreferrer"
               onClick={() => setIsMenuOpen(false)}
             >
-              <span>GET STARTED</span>
+              <span>LAUNCH ANTIQUE APPRAISAL GPT</span>
             </a>
           </div>
         </div>

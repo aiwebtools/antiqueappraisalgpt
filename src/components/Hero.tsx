@@ -28,6 +28,7 @@ const Hero = () => {
 
   const toolsUrl = "https://chatgpt.com/g/g-R3XUdDD0O-antique-and-collectible-appraisal-gpt";
   const materialValuationUrl = "https://materialvaluationgpt.lovable.app/";
+  const artVintageUrl = "https://artandvintagegpt.lovable.app/?via=aiwebtools";
 
   return (
     <>
@@ -111,7 +112,7 @@ const Hero = () => {
         </div>
       </section>
 
-      {/* Material Valuation GPT Recommendation Section */}
+      {/* Related GPTs Section */}
       <section className="py-12 bg-cyber-mid/30 relative overflow-hidden">
         {/* Grid Overlay */}
         <div className="absolute inset-0 bg-cyber-grid opacity-10" style={{ backgroundSize: '30px 30px' }}></div>
@@ -121,22 +122,49 @@ const Hero = () => {
         <div className="absolute bottom-0 left-0 right-0 h-1 bg-neon-green/30 blur-sm"></div>
         
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-4xl mx-auto text-center">
+          <div className="max-w-4xl mx-auto text-center mb-12">
             <h2 className="text-2xl md:text-3xl font-cyber mb-4">
-              You May Also Like: <span className="text-shimmer">Material Valuation GPT</span>
+              <span className="text-shimmer">Related AI Appraisal Tools</span>
             </h2>
             <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
-              Assess the value of raw materials, gemstones, precious metals, and more with our specialized AI valuation tool.
+              Explore our suite of specialized AI appraisal tools for different types of items
             </p>
-            <a 
-              href={materialValuationUrl} 
-              className="neon-button neon-button-green inline-flex items-center justify-center py-3 px-8 bg-neon-green/10 border border-neon-green text-white transition-all shadow-[0_0_10px_rgba(0,255,159,0.4)] hover:shadow-[0_0_15px_rgba(0,255,159,0.6)] hover:bg-neon-green/20"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="mr-2">TRY IT HERE</span>
-              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-            </a>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Material Valuation GPT */}
+            <div className="bg-cyber-light/10 backdrop-blur-sm rounded-lg p-6 border border-neon-green/20 hover:border-neon-green/40 transition-all">
+              <h3 className="text-xl font-cyber mb-3 text-neon-green">Material Valuation GPT</h3>
+              <p className="text-gray-300 mb-6">
+                Assess the value of raw materials, gemstones, precious metals, and more with our specialized AI valuation tool.
+              </p>
+              <a 
+                href={materialValuationUrl} 
+                className="neon-button neon-button-green inline-flex items-center"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="mr-2">TRY IT HERE</span>
+                <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+              </a>
+            </div>
+            
+            {/* Art & Vintage Appraisal GPT */}
+            <div className="bg-cyber-light/10 backdrop-blur-sm rounded-lg p-6 border border-neon-blue/20 hover:border-neon-blue/40 transition-all">
+              <h3 className="text-xl font-cyber mb-3 text-neon-blue">Art & Vintage Appraisal GPT</h3>
+              <p className="text-gray-300 mb-6">
+                Get expert valuations and historical insights for your art pieces, vintage items, and rare collectibles.
+              </p>
+              <a 
+                href={artVintageUrl} 
+                className="neon-button neon-button-blue inline-flex items-center"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="mr-2">TRY IT HERE</span>
+                <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+              </a>
+            </div>
           </div>
         </div>
       </section>

@@ -3,6 +3,7 @@ import { Phone, Mail, ArrowRight } from 'lucide-react';
 
 const Footer = () => {
   const materialValuationUrl = "https://materialvaluationgpt.lovable.app/";
+  const artVintageUrl = "https://artandvintagegpt.lovable.app/?via=aiwebtools";
   
   return (
     <footer className="relative bg-cyber-darker py-12 overflow-hidden">
@@ -86,6 +87,17 @@ const Footer = () => {
                   rel="noopener noreferrer"
                 >
                   <span className="mr-2">We also think you may like MATERIAL VALUATION GPT</span>
+                  <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                </a>
+              </li>
+              <li className="pt-2">
+                <a 
+                  href={artVintageUrl}
+                  className="flex items-center text-neon-blue hover:text-white bg-cyber-light/50 rounded-md p-2 transition-colors group"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span className="mr-2">Check out ART & VINTAGE APPRAISAL GPT</span>
                   <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </a>
               </li>

@@ -9,6 +9,9 @@ const Disclaimer = () => {
           <h2 className="text-3xl md:text-4xl font-bold font-cyber mb-6">
             Legal <span className="neon-text">Disclaimer</span>
           </h2>
+          <p className="text-gray-400 text-sm italic">
+            For informational, educational, and research purposes only.
+          </p>
         </div>
 
         <div className="glassmorphism p-8 max-w-4xl mx-auto">
@@ -95,7 +98,7 @@ const Disclaimer = () => {
               Privacy Policy
             </a>
             <a 
-              href="https://aiwebtools.ai/terms-of-services" 
+              href="https://aiwebtools.lovable.app/disclaimers" 
               className="text-neon-blue hover:underline font-cyber text-sm"
               target="_blank"
               rel="noopener noreferrer"

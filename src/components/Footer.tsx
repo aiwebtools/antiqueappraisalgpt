@@ -1,4 +1,3 @@
-
 import { Phone, Mail, ArrowRight } from 'lucide-react';
 
 const Footer = () => {
@@ -33,6 +32,9 @@ const Footer = () => {
             </a>
             <p className="text-gray-400 text-sm mb-4">
               Discover the history and value of your antiques and collectibles with our AI-powered appraisal tool. Get detailed valuations, historical context, and expert insights.
+            </p>
+            <p className="text-xs text-gray-500 italic mb-4">
+              For informational, educational, and research purposes only.
             </p>
             <div className="flex flex-col gap-2">
               <a href="tel:+14758008096" className="flex items-center text-gray-300 hover:text-neon-pink transition-colors">
@@ -119,7 +121,7 @@ const Footer = () => {
               </li>
               <li>
                 <a 
-                  href="https://aiwebtools.ai/terms-of-services" 
+                  href="https://aiwebtools.lovable.app/disclaimers" 
                   className="text-gray-400 hover:text-neon-blue transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"

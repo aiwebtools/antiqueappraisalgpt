@@ -168,6 +168,40 @@ const Hero = () => {
           </div>
         </div>
       </section>
+
+      {/* Video Section */}
+      <section className="py-20 bg-cyber-darker relative overflow-hidden">
+        {/* Grid Overlay */}
+        <div className="absolute inset-0 bg-cyber-grid opacity-10" style={{ backgroundSize: '40px 40px' }}></div>
+        
+        {/* Glowing accents */}
+        <div className="absolute top-0 left-0 right-0 h-1 bg-neon-pink/30 blur-sm"></div>
+        
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-cyber mb-4">
+                <span className="text-shimmer">See Our AI in Action</span>
+              </h2>
+              <p className="text-gray-300 max-w-2xl mx-auto">
+                Watch how our AI-powered appraisal tools work to discover the value and history of your items
+              </p>
+            </div>
+            
+            <div className="cyber-panel rounded-lg overflow-hidden shadow-2xl">
+              <div className="relative" style={{ paddingBottom: '56.25%' }}>
+                <iframe
+                  className="absolute top-0 left-0 w-full h-full"
+                  src="https://www.youtube.com/embed/azHoiefssJw?autoplay=1&mute=0&vq=hd1080&rel=0"
+                  title="AI Web Tools Demo"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };

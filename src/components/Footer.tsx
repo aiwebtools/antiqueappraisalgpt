@@ -3,6 +3,7 @@ import { Phone, Mail, ArrowRight } from 'lucide-react';
 const Footer = () => {
   const materialValuationUrl = "https://materialvaluationgpt.lovable.app/";
   const artVintageUrl = "https://artandvintagegpt.lovable.app/?via=aiwebtools";
+  const aiwebtoolsUrl = "https://aiwebtools.lovable.app/?via=aiwebtools";
   
   return (
     <footer className="relative bg-cyber-darker py-12 overflow-hidden">

@@ -134,7 +134,7 @@ const Footer = () => {
             
             <div className="mt-8">
               <a 
-                href="https://www.aiwebtools.ai" 
+                href={aiwebtoolsUrl} 
                 className="neon-button neon-button-blue py-2 px-4 text-sm rounded-full"
                 target="_blank"
                 rel="noopener noreferrer"

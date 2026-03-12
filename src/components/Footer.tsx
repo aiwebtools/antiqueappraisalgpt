@@ -28,7 +28,7 @@ const Footer = () => {
                 <h1 className="font-cyber text-lg font-bold tracking-wider text-white">
                   Antique & Collectible Appraisal GPT
                 </h1>
-                <p className="text-xs text-gray-400">Presented by <a href="https://www.aiwebtools.ai" className="text-neon-blue hover:underline" target="_blank" rel="noopener noreferrer">AiWebTools.Ai</a></p>
+                <p className="text-xs text-gray-400">Presented by <a href={aiwebtoolsUrl} className="text-neon-blue hover:underline" target="_blank" rel="noopener noreferrer">AiWebTools.Ai</a></p>
               </div>
             </a>
             <p className="text-gray-400 text-sm mb-4">

@@ -3,6 +3,7 @@ import { Phone, Mail, ArrowRight } from 'lucide-react';
 const Footer = () => {
   const materialValuationUrl = "https://materialvaluationgpt.lovable.app/";
   const artVintageUrl = "https://artandvintagegpt.lovable.app/?via=aiwebtools";
+  const aiwebtoolsUrl = "https://aiwebtools.lovable.app/?via=aiwebtools";
   
   return (
     <footer className="relative bg-cyber-darker py-12 overflow-hidden">
@@ -27,7 +28,7 @@ const Footer = () => {
                 <h1 className="font-cyber text-lg font-bold tracking-wider text-white">
                   Antique & Collectible Appraisal GPT
                 </h1>
-                <p className="text-xs text-gray-400">Presented by <a href="https://www.aiwebtools.ai" className="text-neon-blue hover:underline" target="_blank" rel="noopener noreferrer">AiWebTools.Ai</a></p>
+                <p className="text-xs text-gray-400">Presented by <a href={aiwebtoolsUrl} className="text-neon-blue hover:underline" target="_blank" rel="noopener noreferrer">AiWebTools.Ai</a></p>
               </div>
             </a>
             <p className="text-gray-400 text-sm mb-4">
@@ -133,7 +134,7 @@ const Footer = () => {
             
             <div className="mt-8">
               <a 
-                href="https://www.aiwebtools.ai" 
+                href={aiwebtoolsUrl} 
                 className="neon-button neon-button-blue py-2 px-4 text-sm rounded-full"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -147,7 +148,7 @@ const Footer = () => {
         <div className="mt-12 pt-4 border-t border-neon-purple/20 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm mb-4 md:mb-0">
             <a 
-              href="https://www.aiwebtools.ai" 
+              href={aiwebtoolsUrl} 
               className="hover:text-neon-blue transition-colors"
               target="_blank"
               rel="noopener noreferrer"
@@ -166,7 +167,7 @@ const Footer = () => {
               Try Antique & Collectible Appraisal GPT
             </a>
             <a 
-              href="https://www.aiwebtools.ai" 
+              href={aiwebtoolsUrl} 
               className="text-gray-400 hover:text-neon-blue transition-colors text-sm"
               target="_blank"
               rel="noopener noreferrer"

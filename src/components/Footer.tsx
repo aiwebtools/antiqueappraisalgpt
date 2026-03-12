@@ -167,7 +167,7 @@ const Footer = () => {
               Try Antique & Collectible Appraisal GPT
             </a>
             <a 
-              href="https://www.aiwebtools.ai" 
+              href={aiwebtoolsUrl} 
               className="text-gray-400 hover:text-neon-blue transition-colors text-sm"
               target="_blank"
               rel="noopener noreferrer"
